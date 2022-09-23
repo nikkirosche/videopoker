@@ -1,0 +1,180 @@
+body {
+    background-color: #062C30;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+#message-div {
+    background-color: #5F7464;
+    width: 500px;
+    height: 100px;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    line-height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.draw-button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: #ACB992;
+    font-family: none;
+    font-size: inherit;
+}
+
+.swap-button {
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background-color: #ACB992;
+    font-style: serif;
+    font-size: initial;
+}
+
+
+#player-card-container {
+    width: 750px;
+    height: 250px;
+    background-color: #5F7464;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+#player-point-container {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 200px;
+    height: 100px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    font-size: 20px;
+    background-color: #5F7464;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.point-system {
+    background-color: #5F7464;
+    width: 200px;
+    height:270px;
+    position: absolute;
+    left: 160px;
+    top: 117px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.scoring-system {
+    display:flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    height: 30px;
+}
+
+.coin-image {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 390px;
+    left: 970px;
+}
+
+
+#bet-container {
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 380px;
+    left: 173px;
+}
+
+.card {
+    width: 80px;
+    height: 100px;
+    margin: 30px;
+    display: inline-flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    border-radius: 7px;
+}
+
+
+#sub-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.bet-button {
+    display: inline-flex;
+    flex-direction: row;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: center;
+    background-color: #ACB992;
+    border-radius: 5px;
+}
+
+.selected {
+    border: 5px solid #F190B7;
+}
+
+.hidden {
+    display: none;
+}
+
+#bet-amount {
+    background-color: #ACB992;
+    height: 25px;
+    width: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 5px;
+}
+
+#button-div {
+    position: absolute;
+    left: 670px;
+    top: 320px;
+}
+
